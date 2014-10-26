@@ -13,6 +13,10 @@ Assets/Gizmos/Autotile/
 Assets/Plugins/Autotile/
 Assets/Plugins/Editor/Autotile/
 
+Assets/Gizmos/Autotile.meta
+Assets/Plugins/Autotile.meta
+Assets/Plugins/Editor/Autotile.meta
+
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
