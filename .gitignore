@@ -9,9 +9,9 @@ Library/
 # ===================================== #
 # Autotile                              #
 # ===================================== #
-Gizmos/Autotile/
-Plugins/Autotile/
-Plugins/Editor/Autotile/
+Assets/Gizmos/Autotile/
+Assets/Plugins/Autotile/
+Assets/Plugins/Editor/Autotile/
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
