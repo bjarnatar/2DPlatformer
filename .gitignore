@@ -7,6 +7,13 @@ UnityGenerated/
 Library/
 
 # ===================================== #
+# Autotile                              #
+# ===================================== #
+Gizmos/Autotile/
+Plugins/Autotile/
+Plugins/Editor/Autotile/
+
+# ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
 ExportedObj/
