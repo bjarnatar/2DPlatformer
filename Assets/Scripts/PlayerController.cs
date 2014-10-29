@@ -9,11 +9,16 @@ public class PlayerController : MonoBehaviour
 	public float groundedDistance = 0.05f;
 
 	private bool facingRight = true;
+	private Animator animator;
 
 	// Use this for initialization
 	void Start ()
 	{
-	
+		animator = GetComponent<Animator>();
+		if (animator == null)
+		{
+			Debug.LogError("PlayerController needs an Animator component!");
+		}
 	}
 
 	// Update is called once per frame
@@ -41,6 +46,7 @@ public class PlayerController : MonoBehaviour
 			Flip();
 		}
 
+		animator.SetFloat ("Speed", Mathf.Abs(speed));
 
 		rigidbody2D.velocity = new Vector2(speed, rigidbody2D.velocity.y);
 	}
